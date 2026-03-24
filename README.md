@@ -35,16 +35,20 @@ After extensive EDA, feature engineering, and model evaluation, the **Decision T
 
 ### Key Visual Insights
 
-**Does Shipping Mode Affect Late Delivery?**  
+#### 1. Does Shipping Mode Affect Late Delivery?
+
 <img src="plots/does_shipping_affect.png" width="49%" alt="Shipping Mode Impact">
 
-**Late Risk by Region**  
+#### 2. Late Risk by Region 
+
 <img src="plots/late_risk_byregion.png" width="49%" alt="Late Risk by Region">
 
-**Risk of Delay by Week**  
+#### 3. Risk of Delay by Week
+
 <img src="plots/riskof_delay_byweek.png" width="49%" alt="Risk of Delay by Week">
 
-**Model Comparison - ROC Curves**  
+#### 4. Model Comparison - ROC Curves
+
 <img src="plots/ROC_curve_models.png" width="49%" alt="ROC Curve Models">
 
 ---
@@ -72,17 +76,18 @@ The Decision Tree was selected for its excellent performance, simplicity, and lo
 
 <br>
 
-**Dashboard Overview**  
+#### Dashboard Overview
+
 <img src="dashboards/screenshots/overview.png" width="80%" alt="Power BI Dashboard Overview">
 
-<br><br>
+<br>
 
-**Product Analysis**  
+#### Product Analysis 
 <img src="dashboards/screenshots/product_analysis.png" width="80%" alt="Product Analysis">
 
-<br><br>
+<br>
 
-**Shipping Analysis**  
+#### Shipping Analysis 
 <img src="dashboards/screenshots/shipping_analysis.png" width="80%" alt="Shipping Analysis">
 
 </div>
