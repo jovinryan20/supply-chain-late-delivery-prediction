@@ -1,22 +1,23 @@
 <div align="center">
-  <h1>
-    🚛 Global Supply Chain<br>
-    <span style="background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899); 
-                 -webkit-background-clip: text; 
-                 -webkit-text-fill-color: transparent;">
-      Late Delivery Risk Prediction
-    </span>
-  </h1>
+  <h1>🚛 Global Supply Chain Late Delivery Risk Prediction</h1>
   
-  <p>
-    <strong>End-to-End Machine Learning Solution</strong><br>
-    <span style="font-size: 1.3em; color: #22c55e;">★ Best Model: Decision Tree (AUC = 0.857)</span>
-  </p>
+  <p><strong>End-to-End Machine Learning Solution</strong></p>
+  
+  <h2>
+    <span style="color: #22c55e;">★ Best Model:</span> 
+    <span style="color: #eab308;">Decision Tree (AUC = 0.857)</span>
+  </h2>
 
   <p>
-    Predicting whether an order will arrive <strong>late</strong> or <strong>on time</strong> using the DataCo Supply Chain Dataset
+    Predicting whether an order will arrive 
+    <strong style="color: #ef4444;">late</strong> or 
+    <strong style="color: #22c55e;">on time</strong><br>
+    using the DataCo Supply Chain Dataset
   </p>
-  
+</div>
+
+<br><br>
+
 ---
 
 ## 📊 Project Overview
@@ -37,23 +38,17 @@ After extensive EDA, feature engineering, and model evaluation, the **Decision T
 
 ### Key Visual Insights
 
-<div align="center">
-
 **Does Shipping Mode Affect Late Delivery?**  
 <img src="plots/does_shipping_affect.png" width="49%" alt="Shipping Mode Impact">
 &nbsp;&nbsp;&nbsp;&nbsp;
 **Late Risk by Region**  
 <img src="plots/late_risk_byregion.png" width="49%" alt="Late Risk by Region">
 
-<br><br>
-
 **Risk of Delay by Week**  
 <img src="plots/riskof_delay_byweek.png" width="49%" alt="Risk of Delay by Week">
 &nbsp;&nbsp;&nbsp;&nbsp;
 **Model Comparison - ROC Curves**  
 <img src="plots/ROC_curve_models.png" width="49%" alt="ROC Curve Models">
-
-</div>
 ---
 
 ## 🤖 Modelling Results
@@ -74,8 +69,6 @@ The Decision Tree was selected for its excellent performance, simplicity, and lo
 ---
 
 ## 📈 Power BI Interactive Dashboard
-
-<div align="center">
 
 **Professional Business Intelligence Dashboard** built in Power BI for deep visual analysis of late delivery risks, shipping performance, and store delays.
 
