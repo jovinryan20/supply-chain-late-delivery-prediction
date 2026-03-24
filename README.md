@@ -1,12 +1,22 @@
-# 🚛 Global Supply Chain Late Delivery Risk Prediction
+<div align="center">
+  <h1>
+    🚛 Global Supply Chain<br>
+    <span style="background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899); 
+                 -webkit-background-clip: text; 
+                 -webkit-text-fill-color: transparent;">
+      Late Delivery Risk Prediction
+    </span>
+  </h1>
+  
+  <p>
+    <strong>End-to-End Machine Learning Solution</strong><br>
+    <span style="font-size: 1.3em; color: #22c55e;">★ Best Model: Decision Tree (AUC = 0.857)</span>
+  </p>
 
-**End-to-End Machine Learning Project**  
-**Best Model:** Decision Tree (ROC-AUC = **0.857**)
-
-Predict whether an order will be delivered late using the DataCo Supply Chain dataset.
-
-![Project Banner](https://via.placeholder.com/1200x300/1e3a8a/ffffff?text=Supply+Chain+Late+Delivery+Prediction)
-
+  <p>
+    Predicting whether an order will arrive <strong>late</strong> or <strong>on time</strong> using the DataCo Supply Chain Dataset
+  </p>
+  
 ---
 
 ## 📊 Project Overview
@@ -25,31 +35,25 @@ After extensive EDA, feature engineering, and model evaluation, the **Decision T
 
 ## 📈 Exploratory Data Analysis
 
-### Key Insights from the Data
-
-| Plot | Description |
-|------|-------------|
-| **Shipping Mode Impact** | Does shipping mode significantly affect late delivery risk? |
-| **Late Risk by Region** | Regional analysis of delay patterns |
-| **Risk of Delay by Week** | Weekly trends in late deliveries |
-| **Model Performance** | ROC curves comparing all models |
+### Key Visual Insights
 
 <div align="center">
 
 **Does Shipping Mode Affect Late Delivery?**  
-<img src="plots/does_shipping_affect.png" width="48%" alt="Shipping Mode Impact">
-
+<img src="plots/does_shipping_affect.png" width="49%" alt="Shipping Mode Impact">
+&nbsp;&nbsp;&nbsp;&nbsp;
 **Late Risk by Region**  
-<img src="plots/late_risk_byregion.png" width="48%" alt="Late Risk by Region">
+<img src="plots/late_risk_byregion.png" width="49%" alt="Late Risk by Region">
+
+<br><br>
 
 **Risk of Delay by Week**  
-<img src="plots/riskof_delay_byweek.png" width="48%" alt="Risk of Delay by Week">
-
+<img src="plots/riskof_delay_byweek.png" width="49%" alt="Risk of Delay by Week">
+&nbsp;&nbsp;&nbsp;&nbsp;
 **Model Comparison - ROC Curves**  
-<img src="plots/ROC_curve_models.png" width="48%" alt="ROC Curve Models">
+<img src="plots/ROC_curve_models.png" width="49%" alt="ROC Curve Models">
 
 </div>
-
 ---
 
 ## 🤖 Modelling Results
@@ -69,21 +73,35 @@ The Decision Tree was selected for its excellent performance, simplicity, and lo
 
 ---
 
-## 📈 Power BI Dashboard
+## 📈 Power BI Interactive Dashboard
 
-Interactive business dashboard built in Power BI for deep visual analysis.
+<div align="center">
 
-**Download the full interactive dashboard:**
+**Professional Business Intelligence Dashboard** built in Power BI for deep visual analysis of late delivery risks, shipping performance, and store delays.
 
-[![Download Power BI Dashboard](https://img.shields.io/badge/Download-.pbix-FF0000?style=for-the-badge&logo=powerbi&logoColor=white)](dashboards/supplychain.pbix)
+<br>
 
-**Key Dashboard Features:**
-- Late delivery risk overview
-- Shipping mode and store delay analysis
-- Regional and weekly performance insights
-- Interactive slicers and drill-downs
+**Dashboard Overview**  
+<img src="dashboards/screenshots/powerbi_overview.png" width="80%" alt="Power BI Dashboard Overview">
 
-*(Open with free Power BI Desktop for full interactivity)*
+<br><br>
+
+**Shipping Mode & Delay Analysis**  
+<img src="dashboards/screenshots/powerbi_shipping.png" width="80%" alt="Shipping Mode Analysis">
+
+<br><br>
+
+**Regional Risk Breakdown**  
+<img src="dashboards/screenshots/powerbi_region.png" width="80%" alt="Regional Risk Analysis">
+
+</div>
+
+### Download Full Interactive Dashboard
+
+[![Download Power BI File](https://img.shields.io/badge/Download_Full_Dashboard-FF0000?style=for-the-badge&logo=powerbi&logoColor=white)](dashboards/supplychain.pbix)
+
+**How to view:**  
+Download the `.pbix` file and open it with **free Power BI Desktop** for full interactivity, slicers, and drill-downs.
 
 ---
 
@@ -102,12 +120,16 @@ Try the **Live Prediction App** built with Streamlit:
 
 ## 🛠️ Tech Stack
 
-- **Python** | **Pandas** | **Scikit-learn** | **Joblib**
-- **Streamlit** (Interactive Web App)
-- **Plotly** & **Matplotlib** (Visualizations)
-- **XGBoost**, **Random Forest**, **Decision Tree**, **Logistic Regression** (Modelling) 
-- **Power BI** (Business Dashboard)
-- **GitHub** (Version Control & Showcase)
+| Category                  | Technologies & Tools |
+|---------------------------|----------------------|
+| **Programming Language**  | 🐍 **Python 3.14** |
+| **Data Processing**       | 🐼 **Pandas** • 🔢 **NumPy** |
+| **Machine Learning**      | 🤖 **Scikit-learn** • 🌲 **Decision Tree** • 🚀 **XGBoost** • 🌳 **Random Forest** |
+| **Data Visualization**    | 📊 **Plotly** • 📉 **Matplotlib** • 📈 **Power BI** • 🌊 **Seaborn** |
+| **Web Application**       | 🌐 **Streamlit** |
+| **Model Serialization**   | 📦 **Joblib** |
+| **Version Control**       | 🐙 **Git** • **GitHub** |
+| **Development Tools**     | 📒 **Jupyter Notebook** • 👨‍💻 **VS Code** |
 
 ---
 
@@ -143,9 +165,9 @@ supply-chain-late-delivery-prediction/
 git clone https://github.com/yourusername/supply-chain-late-delivery-prediction.git
 ```
 
-2. Install dependencies:Bashpip 
+2. Install dependencies: 
  ```bash
-install -r requirements.txt
+pip install -r requirements.txt
 ```
 3. Run the Streamlit app:
  ```bash
