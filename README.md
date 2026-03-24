@@ -105,7 +105,7 @@ Download the `.pbix` file and open it with **free Power BI Desktop** for full in
 
 Try the **Live Prediction App** built with Streamlit:
 
-[![Streamlit App](https://img.shields.io/badge/Launch_Live_App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://your-app-name.streamlit.app)
+[![Streamlit App](https://img.shields.io/badge/Launch_Live_App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://global-supply-chain-late-delivery-prediction.streamlit.app)
 
 **Features:**
 - Real-time late delivery predictions using the Decision Tree model
