@@ -16,8 +16,6 @@
   </p>
 </div>
 
-<br><br>
-
 ---
 
 ## 📊 Project Overview
@@ -33,22 +31,22 @@ After extensive EDA, feature engineering, and model evaluation, the **Decision T
 - Focused on model interpretability and low overfitting
 
 ---
-
 ## 📈 Exploratory Data Analysis
 
 ### Key Visual Insights
 
 **Does Shipping Mode Affect Late Delivery?**  
 <img src="plots/does_shipping_affect.png" width="49%" alt="Shipping Mode Impact">
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 **Late Risk by Region**  
 <img src="plots/late_risk_byregion.png" width="49%" alt="Late Risk by Region">
 
 **Risk of Delay by Week**  
 <img src="plots/riskof_delay_byweek.png" width="49%" alt="Risk of Delay by Week">
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 **Model Comparison - ROC Curves**  
 <img src="plots/ROC_curve_models.png" width="49%" alt="ROC Curve Models">
+
 ---
 
 ## 🤖 Modelling Results
@@ -75,17 +73,17 @@ The Decision Tree was selected for its excellent performance, simplicity, and lo
 <br>
 
 **Dashboard Overview**  
-<img src="dashboards/screenshots/powerbi_overview.png" width="80%" alt="Power BI Dashboard Overview">
+<img src="dashboards/screenshots/overview.png" width="80%" alt="Power BI Dashboard Overview">
 
 <br><br>
 
-**Shipping Mode & Delay Analysis**  
-<img src="dashboards/screenshots/powerbi_shipping.png" width="80%" alt="Shipping Mode Analysis">
+**Product Analysis**  
+<img src="dashboards/screenshots/product_analysis.png" width="80%" alt="Product Analysis">
 
 <br><br>
 
-**Regional Risk Breakdown**  
-<img src="dashboards/screenshots/powerbi_region.png" width="80%" alt="Regional Risk Analysis">
+**Shipping Analysis**  
+<img src="dashboards/screenshots/shipping_analysis.png" width="80%" alt="Shipping Analysis">
 
 </div>
 
